@@ -594,7 +594,7 @@ padding: 20px;
     .mainregistrate{
         color: black;
         width: 500px;
-        height: 550px;
+        height: 650px;
         background-color: rgb(255, 255, 255);
         padding: 30px;
         margin: auto;
@@ -616,7 +616,7 @@ padding: 20px;
     
     .controles{
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         background-color: rgb(218, 228, 228);  
         padding: 10px;
         border-radius: 4px;
@@ -642,10 +642,10 @@ padding: 20px;
     
     }
     .divmail{
-        padding-top: 20px;
+        padding-top: 1px;
     }
     .divauto{
-        padding-top: 18px;
+        padding-top: 1px;
         font-size: 15px;
     
     }
@@ -655,7 +655,7 @@ padding: 20px;
     .fondoregis{
        display: flex;
         width: 100%;
-        height: 700px;
+        height: 800px;
         background-image: url(https://i.pinimg.com/564x/35/eb/7d/35eb7d5bce221d9392feb1e426ba48af.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -1258,10 +1258,12 @@ padding: 20px;
     }
     .bitcoin1{
         width: 250px;
-        height: 270px;
+        height: 280px;
        align-items: center;
        justify-content: center;
        display: flex;
+       position: relative;
+       left: 8px;
     }
     .imagenbitcoin{
         width: 100%;
@@ -1383,7 +1385,7 @@ padding: 20px;
     }
     .bitcoin1{
         width: 240px;
-        height: 250px;
+        height: 280px;
        align-items: center;
        justify-content: center;
        display: flex;
@@ -2043,14 +2045,14 @@ padding: 20px;
     }
     .pagodos .botonpagodos {
         
-        width: 100%;
+        width: 248px;
         font-size: 15px;
         
     }
-
+    
     .pagotres .botonpagotres {
         
-        width: 100%;
+        width: 248px;
         font-size: 15px;
         
     }
@@ -2141,25 +2143,27 @@ padding: 20px;
     }
     
     .maincomprar .titulocompraruno {
-        font-size: 20px;
+        font-size: 17px;
+        
     }
-
+    
+    
     .pagouno .botonpago {
         
-        width: 100%;
+        width: 200px;
         font-size: 15px;
         
     }
     .pagodos .botonpagodos {
         
-        width: 100%;
+        width: 200px;
         font-size: 15px;
         
     }
 
     .pagotres .botonpagotres {
         
-        width: 100%;
+        width: 200px;
         font-size: 15px;
         
     }
@@ -2237,9 +2241,13 @@ padding: 20px;
         flex-direction: column;
     }
 
-
 }
 
+@media screen and (max-width: 321px) {
+    .titulocompraruno{
+        font-size: 10px;
+    }
+}
 
 @media screen and (max-width: 960px) {
 
@@ -2314,6 +2322,7 @@ padding: 20px;
     
         .columna{
             width: 100%;
+            font-size: 11px;
         }
 
         body {
@@ -2321,13 +2330,141 @@ padding: 20px;
         }
         }
 
+        @media screen and (max-width: 375px) {
 
+    
+            .seccioncotizacion h1{
+                font-size: 20px;
+            }
+    
+            .seccioncotizacion p{
+                font-size: 15px;
+            }
+    
+    
+            .seccioncotizacion{
+                width: 100%;
+            }
+            .filabtc{
+                width: 375px
+            }
+        
+            .columna{
+                width: 100%;
+            }
+    
+            body {
+                font-size: 13px;
+            }
+            
 
+            .divcripto {
+                font-size: 11px;
+                position: relative;
+                right:15px;
+                
+            }
+            .divprecio{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .divventa{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .divvariacion{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .divvariacionn{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .comprar{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+        }
 
+        @media screen and (max-width: 320px) {
 
+    
+            .seccioncotizacion h1{
+                font-size: 20px;
+            }
+    
+            .seccioncotizacion p{
+                font-size: 15px;
+            }
+    
+    
+            .seccioncotizacion{
+                width: 100%;
+            }
+            .filabtc{
+                width: 320px
+            }
+        
+            .columna{
+                width: 100%;
+            }
+    
+            body {
+                font-size: 13px;
+            }
+            
 
+            .divcripto {
+                font-size: 11px;
+                position: relative;
+                right:15px;
+                
+            }
+            .divprecio{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .divventa{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .divvariacion{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .divvariacionn{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+            .comprar{
+                font-size: 11px;
+                position: relative;
+                right:15px;
+            }
+        }
 
-
+        @media screen and (max-width: 375px) {
+            .mainregistrate{
+                height: 700px;
+            }
+            .terminos{
+                font-size: 12px;
+                
+            }
+    
+            .divauto{
+                font-size: 12px;
+            }
+        }
 
 
 
