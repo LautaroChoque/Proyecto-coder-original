@@ -1,0 +1,77 @@
+.fondoregis{
+    display: flex;
+     width: 100%;
+     height: 800px;
+     background-image: url(https://i.pinimg.com/564x/35/eb/7d/35eb7d5bce221d9392feb1e426ba48af.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     .mainregistrate{
+        color: black;
+        width: 500px;
+        height: 650px;
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        box-shadow: 7px 13px 37px #000;
+        .mainregistrate h1{
+            font-size: 35px ;   
+            margin-bottom: 0px;
+           padding: 5px;
+           }
+           .mainregistrate p{
+               font-size: 15px;
+           }
+           
+    }
+    .divmail{
+        padding-top: 1px;
+        .controles{
+            width: 100%;
+            margin-bottom: 15px;
+            background-color: rgb(218, 228, 228);  
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid rgb(231, 221, 214);
+            font-size: 15px;
+            display: flex;
+        }
+        
+    }
+    .controles{
+        width: 100%;
+        margin-bottom: 15px;
+        background-color: rgb(218, 228, 228);  
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid rgb(231, 221, 214);
+        font-size: 15px;
+        display: flex;
+    }
+    .terminos{
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .divauto{
+        padding-top: 1px;
+        font-size: 15px;
+        
+    }
+    .divingresar{
+        padding-top: 20px;
+        .botoningresar{
+            width: 100%;
+            border: none;
+            padding: 12px;
+            background-color: rgb(5, 5, 5);
+           font-size: 18px;
+           color: white;
+        
+        }
+    }
+ }

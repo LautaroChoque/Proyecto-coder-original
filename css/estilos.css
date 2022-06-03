@@ -185,9 +185,7 @@ padding: 20px;
 }
 
 
-.terceraseccion h2 {
-    padding-left: 130px;
-}
+
 
 .terceraseccioneth{
     width: 1000px;
@@ -756,6 +754,10 @@ padding: 20px;
     .comprar{
         text-decoration: none;
         color: blue;
+    }
+                                                                                  
+    .navbar-nav{
+        gap: 40px;
     }
 
     @media screen and (max-width: 1115px) {

@@ -1,0 +1,625 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+nav .navbar-nav {
+  gap: 40px; }
+
+.seccion1 {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 5px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #020041; }
+  .seccion1 .contenido1 {
+    grid-area: 1fr / 2fr / 2fr / 3fr;
+    color: white;
+    width: 700px;
+    height: 150px;
+    font-size: 28px;
+    position: relative;
+    top: 190px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+    .seccion1 .contenido1 .seccion1__titulo {
+      font-weight: 600; }
+    .seccion1 .contenido1 .contenido1 p {
+      position: relative; }
+  .seccion1 .contenido1 a button {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 18px; }
+  .seccion1 .imagenbitcoin {
+    grid-area: 1fr / 1fr / 2fr / 2fr;
+    width: 500px;
+    height: 600px;
+    display: flex; }
+    .seccion1 .imagenbitcoin .bitcoin1 {
+      width: 100%;
+      height: 100%;
+      margin-right: 20px;
+      transition: all 0.5s; }
+    .seccion1 .imagenbitcoin .bitcoin1:hover {
+      transform: translateY(-10px); }
+
+.segundaseccion {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 100%;
+  background-image: url(../img/eth.png);
+  background-size: 620px;
+  background-repeat: no-repeat; }
+  .segundaseccion .moneda {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px; }
+    .segundaseccion .moneda .imgmoneda {
+      width: 100px;
+      height: 100px;
+      margin-right: 80px;
+      margin-top: 20px;
+      transition: all 1s; }
+  .segundaseccion .imgmoneda:hover {
+    transform: translateY(50px) rotate(360deg); }
+  .segundaseccion .contenedordivseg {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 150px;
+    margin-top: 170px; }
+    .segundaseccion .contenedordivseg .divsegundo {
+      font-family: 'Heebo', sans-serif;
+      font-size: 23px;
+      color: #02012e;
+      text-align: center;
+      height: 150px;
+      width: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+      .segundaseccion .contenedordivseg .divsegundo .seccion2__titulo {
+        font-weight: 600; }
+      .segundaseccion .contenedordivseg .divsegundo .botonsegunda {
+        color: white;
+        position: relative;
+        width: 130px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        justify-content: center;
+        background-color: #02012e;
+        font-family: 'Heebo', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 18px; }
+
+.terceraseccion {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  gap: 80px;
+  padding-top: 150px;
+  width: 100%;
+  height: 800px;
+  background-color: #020041; }
+  .terceraseccion .bitcoin {
+    width: 1000px;
+    height: 150px;
+    flex-direction: row;
+    padding: 20px; }
+    .terceraseccion .bitcoin .btcimg {
+      float: left; }
+    .terceraseccion .bitcoin .titulos1 {
+      font-size: 30px;
+      padding-left: 130px; }
+    .terceraseccion .bitcoin .terceraseccionparraf {
+      padding-left: 130px; }
+    .terceraseccion .bitcoin .masinfo {
+      color: #ebb608; }
+  .terceraseccion .terceraseccioneth {
+    width: 1000px;
+    height: 150px;
+    padding: 20px; }
+    .terceraseccion .terceraseccioneth .titulos1 {
+      font-size: 30px;
+      padding-left: 130px;
+      position: relative;
+      bottom: 100px; }
+    .terceraseccion .terceraseccioneth .terceraseccionparraf {
+      padding-left: 130px;
+      position: relative;
+      bottom: 100px; }
+    .terceraseccion .terceraseccioneth .masinfo {
+      color: #ebb608; }
+    .terceraseccion .terceraseccioneth .terceraseccioneth img {
+      float: left; }
+  .terceraseccion .terceraseccionusdt {
+    width: 1000px;
+    height: 150px;
+    padding: 20px; }
+    .terceraseccion .terceraseccionusdt .titulos1 {
+      font-size: 30px;
+      padding-left: 130px;
+      position: relative;
+      bottom: 100px; }
+    .terceraseccion .terceraseccionusdt .terceraseccionparraf {
+      padding-left: 130px;
+      position: relative;
+      bottom: 100px; }
+    .terceraseccion .terceraseccionusdt .masinfo {
+      color: #ebb608; }
+  .terceraseccion .divtercera {
+    position: relative;
+    bottom: 450px;
+    right: 50px; }
+    .terceraseccion .divtercera .imagentercera {
+      display: flex;
+      position: relative;
+      width: 269px;
+      height: 550;
+      transition: all 0.5s; }
+    .terceraseccion .divtercera .imagentercera:hover {
+      transform: translatey(-20px); }
+    .terceraseccion .divtercera .terceraseccionusdt img {
+      float: left; }
+
+.footer {
+  color: white;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 0px 0px 2px white;
+  background-color: #02012e;
+  font-family: 'Heebo', sans-serif; }
+  .footer .footerderechos {
+    display: flex;
+    font-size: 18px;
+    width: 290px;
+    margin-top: 30px;
+    position: absolute; }
+  .footer .fotofooter {
+    display: flex;
+    justify-content: end;
+    padding-top: 19px; }
+    .footer .fotofooter .footerfoto {
+      display: flex;
+      width: 250px;
+      height: 56px; }
+
+.maincomprar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px; }
+  .maincomprar .divcomprar {
+    color: white;
+    width: 800px;
+    height: 350px; }
+    .maincomprar .divcomprar .titulocompraruno {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #070707;
+      padding-bottom: 50px;
+      font-weight: 500; }
+    .maincomprar .divcomprar .pagouno {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px; }
+      .maincomprar .divcomprar .pagouno .imgtransferencia {
+        height: 70px;
+        width: 70px; }
+        .maincomprar .divcomprar .pagouno .imgtransferencia .imgtrans {
+          width: 70px;
+          height: 70px;
+          display: flex; }
+      .maincomprar .divcomprar .pagouno .botonpago {
+        position: relative;
+        width: 330px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: #02012e;
+        font-family: 'Heebo', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: white; }
+    .maincomprar .divcomprar .pagodos {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 60px; }
+      .maincomprar .divcomprar .pagodos .divmercado {
+        width: 60px;
+        height: 60px;
+        display: flex; }
+        .maincomprar .divcomprar .pagodos .divmercado .mercado {
+          width: 60px;
+          height: 60px; }
+      .maincomprar .divcomprar .pagodos .botonpagodos {
+        position: relative;
+        width: 330px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: #02012e;
+        font-family: 'Heebo', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: white; }
+    .maincomprar .divcomprar .pagotres {
+      padding: 10px;
+      height: 80px;
+      width: 800px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px; }
+      .maincomprar .divcomprar .pagotres .pagotrans {
+        width: 80px;
+        height: 65px;
+        display: flex; }
+        .maincomprar .divcomprar .pagotres .pagotrans .rapipago {
+          width: 80px;
+          height: 65px;
+          align-items: center;
+          justify-content: center; }
+      .maincomprar .divcomprar .pagotres .botonpagotres {
+        position: relative;
+        width: 330px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: #02012e;
+        font-family: 'Heebo', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: white; }
+
+.segundomaininfo {
+  color: white;
+  height: 600px;
+  background-color: #020041; }
+  .segundomaininfo .segundodivmain {
+    width: 800px;
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; }
+  .segundomaininfo .cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 110px; }
+    .segundomaininfo .cajas .cajaseguridad {
+      background-color: white;
+      color: black;
+      height: 250px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      border-radius: 40px;
+      box-shadow: 7px 13px 37px #000;
+      transition: all 0.3s; }
+      .segundomaininfo .cajas .cajaseguridad .imgseguridad {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+    .segundomaininfo .cajas .cajaseguridad:hover {
+      transform: translateY(-10px); }
+  .segundomaininfo .cajas h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .segundomaininfo .parrafocajas {
+    display: flex;
+    padding: 10px; }
+  .segundomaininfo .cajainnovacion {
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: 7px 13px 37px #000;
+    transition: all 0.3s; }
+    .segundomaininfo .cajainnovacion .imginn {
+      display: flex;
+      justify-content: center; }
+    .segundomaininfo .cajainnovacion .cajas h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .segundomaininfo .cajainnovacion .parrafocajas {
+      display: flex;
+      padding: 10px; }
+  .segundomaininfo .cajainnovacion:hover {
+    transform: translateY(-10px); }
+  .segundomaininfo .cajaconfianza {
+    background-color: #fffdfd;
+    color: #070500;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 7px 13px 37px #000;
+    transition: all 0.3s; }
+    .segundomaininfo .cajaconfianza .imgconf {
+      display: flex;
+      justify-content: center; }
+    .segundomaininfo .cajaconfianza .cajas h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .segundomaininfo .cajaconfianza .parrafocajas {
+      display: flex;
+      padding: 10px; }
+  .segundomaininfo .cajaconfianza:hover {
+    transform: translateY(-10px); }
+
+.seccioncyv {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  padding-top: 80px;
+  background-image: linear-gradient(#070141, black); }
+  .seccioncyv .titulocomprar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600; }
+  .seccioncyv .parrafocomprar {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Heebo', sans-serif; }
+  .seccioncyv .botones {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px; }
+    .seccioncyv .botones .button1 {
+      padding-right: 30px; }
+      .seccioncyv .botones .button1 .botonuno {
+        position: relative;
+        width: 130px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color: white;
+        font-family: 'Heebo', sans-serif;
+        font-size: 17px;
+        font-weight: 700; }
+    .seccioncyv .botones .botondos {
+      position: relative;
+      width: 130px;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      background-color: white;
+      font-family: 'Heebo', sans-serif;
+      font-size: 17px;
+      font-weight: 700; }
+
+.coomingsoon {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  position: relative;
+  bottom: 2px;
+  width: 100%; }
+  .coomingsoon .imgcooming {
+    width: 100%; }
+
+.seccioncotizacion {
+  color: black;
+  height: 850px;
+  background-color: #020041; }
+  .seccioncotizacion .divprincipal {
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px; }
+  .seccioncotizacion .divprincipal h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600; }
+  .seccioncotizacion .divprincipal p {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 25px;
+    color: white; }
+  .seccioncotizacion .columna {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 30px;
+    margin-top: 200px; }
+    .seccioncotizacion .columna .divcripto {
+      display: flex;
+      width: 320px;
+      height: 17px;
+      margin-left: 20px; }
+    .seccioncotizacion .columna .divprecio {
+      display: flex;
+      width: 140px;
+      height: 17px; }
+    .seccioncotizacion .columna .divventa {
+      display: flex;
+      width: 140px;
+      height: 17px; }
+    .seccioncotizacion .columna .divvariaciontit {
+      display: flex;
+      width: 140px;
+      height: 17px; }
+  .seccioncotizacion .todo {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .seccioncotizacion .todo .filas {
+      display: flex;
+      flex-direction: column;
+      gap: 50px; }
+      .seccioncotizacion .todo .filas .filabtc {
+        display: flex;
+        width: 940px;
+        height: 78px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 30px; }
+        .seccioncotizacion .todo .filas .filabtc .divcripto {
+          display: flex;
+          width: 320px;
+          height: 17px;
+          margin-left: 20px; }
+        .seccioncotizacion .todo .filas .filabtc .divprecio {
+          display: flex;
+          width: 140px;
+          height: 17px; }
+        .seccioncotizacion .todo .filas .filabtc .divventa {
+          display: flex;
+          width: 140px;
+          height: 17px; }
+        .seccioncotizacion .todo .filas .filabtc .divvariacion {
+          display: flex;
+          width: 140px;
+          height: 17px;
+          color: #03c703; }
+        .seccioncotizacion .todo .filas .filabtc .comprar {
+          text-decoration: none;
+          color: blue; }
+      .seccioncotizacion .todo .filas .filabtc {
+        display: flex;
+        width: 940px;
+        height: 78px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 30px; }
+        .seccioncotizacion .todo .filas .filabtc .divcripto {
+          display: flex;
+          width: 320px;
+          height: 17px;
+          margin-left: 20px; }
+        .seccioncotizacion .todo .filas .filabtc .divprecio {
+          display: flex;
+          width: 140px;
+          height: 17px; }
+        .seccioncotizacion .todo .filas .filabtc .divventa {
+          display: flex;
+          width: 140px;
+          height: 17px; }
+        .seccioncotizacion .todo .filas .filabtc .divvariacionn {
+          display: flex;
+          width: 140px;
+          height: 17px;
+          color: #eb1111; }
+        .seccioncotizacion .todo .filas .filabtc .comprar {
+          text-decoration: none;
+          color: blue; }
+
+.fondoregis {
+  display: flex;
+  width: 100%;
+  height: 800px;
+  background-image: url(https://i.pinimg.com/564x/35/eb/7d/35eb7d5bce221d9392feb1e426ba48af.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .fondoregis .mainregistrate {
+    color: black;
+    width: 500px;
+    height: 650px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000; }
+    .fondoregis .mainregistrate .mainregistrate h1 {
+      font-size: 35px;
+      margin-bottom: 0px;
+      padding: 5px; }
+    .fondoregis .mainregistrate .mainregistrate p {
+      font-size: 15px; }
+  .fondoregis .divmail {
+    padding-top: 1px; }
+    .fondoregis .divmail .controles {
+      width: 100%;
+      margin-bottom: 15px;
+      background-color: #dae4e4;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      border: 1px solid #e7ddd6;
+      font-size: 15px;
+      display: flex; }
+  .fondoregis .controles {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #dae4e4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #e7ddd6;
+    font-size: 15px;
+    display: flex; }
+  .fondoregis .terminos {
+    height: 40px;
+    text-align: center;
+    font-size: 15px; }
+  .fondoregis .divauto {
+    padding-top: 1px;
+    font-size: 15px; }
+  .fondoregis .divingresar {
+    padding-top: 20px; }
+    .fondoregis .divingresar .botoningresar {
+      width: 100%;
+      border: none;
+      padding: 12px;
+      background-color: #050505;
+      font-size: 18px;
+      color: white; }
